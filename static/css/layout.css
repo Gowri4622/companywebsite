@@ -4,7 +4,7 @@
 }
 body{
     background-color: whitesmoke;
-    color:  #17421D;
+    color:  rgb(66, 61, 10);
 }
 .container{
     width: 1080px;
@@ -15,17 +15,23 @@ body{
     box-shadow: 15px 15px 8px gray;    
 }
 
+ @font-face{
+    font-family: 'Font';
+    src: url('fonts/Anton-Regular[1].ttf') format('truetype');
+}
+
 .banner{
     display: block;
     width: 100%;
     height: 250px;
     text-align: center;
     font-size: xx-large;
-    background-image : url("/static/img/chip1.jpg");
+    background-image : url("/static/img/banner.png");
     background-size:cover;
     margin: 0px 0px 0px 0px;
     padding-top: 150px;
-    color: #17421D;
+    color: rgb(233, 208, 99);
+    font-family: 'Font';
 }
 
 .menu{
@@ -33,7 +39,7 @@ body{
     width: 100%;
     height: 50px;
     font-size: larger;
-    background-color: #17421D;
+    background-color: #b45f06ff;
     text-align: center;
     padding-top: 15px;
     margin: 0px 0px 0px 0px;
@@ -123,7 +129,7 @@ body{
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #17421D;
+    background-color: #b45f06ff;
     text-align: center;
     padding-top: 10px;
     margin: 0px 0px 0px 0px;
